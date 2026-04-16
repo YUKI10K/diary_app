@@ -1,0 +1,8 @@
+<h1><%= @index_title %></h1>
+<p>テスト表示</p>
+<% @diaries.each do |diary| %>
+  <%= diary.body %>
+  <%= l diary.created_at, format: :short %>
+
+ <%= link_to '詳細を見る', diary_path(diary.id) %>
+<% end %>

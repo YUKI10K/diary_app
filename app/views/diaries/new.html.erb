@@ -1,0 +1,6 @@
+<%= form_with model: @diary do |f| %>
+  <%= f.label :body %>
+  <%= f.text_area :body %>
+  
+  <%= f.submit '作成' %>
+<% end %>
