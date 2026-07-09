@@ -1,1 +1,15 @@
 ja:
+  user_sessions:
+    new:
+      title: 'ログイン'
+    create:
+      success: 'ログインしました'
+      failure: 'ログインに失敗しました'
+    destroy:
+      success: 'ログアウトしました'
+  helpers:
+    label:
+      email: 'メールアドレス'
+      password: 'パスワード'
+    submit:
+      create: 'ログイン'
